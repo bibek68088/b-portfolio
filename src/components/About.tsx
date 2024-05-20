@@ -3,7 +3,7 @@ import { hobbies } from "./data";
 
 const About = () => {
   return (
-    <div id="about" className="flex justify-center gap-6">
+    <div id="about" className="flex justify-center gap-6 pb-20">
       <div
         className="hidden md:block w-1/3 h-[750px] bg-center bg-cover"
         style={{ backgroundImage: `url(${personImg})` }}
@@ -47,6 +47,10 @@ const About = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex flex-col gap-5">
+          <p className="text-lg"> <span className="text-blue-600 font-bold text-xl">750</span> {""}Project completed</p>
+          <button className="bg-blue-600 text-white p-3 text-sm rounded-full w-3/12">Download CV</button>
         </div>
       </div>
     </div>

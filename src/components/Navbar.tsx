@@ -73,8 +73,8 @@ const Navbar = () => {
           }
         >
           {navItems.map((item) => (
-            <ul className="flex p-3 bg-gray-400 text-white">
-              <li className="border-blue-300 ease-in-out hover:border-b-2" key={item.id}>{item.text}</li>
+            <ul className="flex p-3 bg-sky-600 text-white">
+              <li className="border-blue-300 ease-in-out hover:border-b-2 font-thin" key={item.id}>{item.text}</li>
             </ul>
           ))}
         </div>

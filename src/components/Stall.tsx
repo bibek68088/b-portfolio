@@ -16,10 +16,10 @@ const Stall = () => {
             actionable plans. Let me know what you're envisioning, and
             together, we'll navigate the path to success."
           </p>
-          <button className="bg-white text-blue-300 md:w-5/12 lg:w-2/5 xl:w-1/4 w-1/2 p-2 rounded-md">Contact Me</button>
+          <a href="#contact"><button className="bg-white text-blue-300 md:w-5/12 lg:w-2/5 xl:w-1/4 w-1/2 p-2 rounded-md">Contact Me</button></a>
         </div>
-        <div className="flex justify-center md:items-end md:w-5/12">
-          <img src={bgPerson} className="md:p-1" alt="img" />
+        <div className="flex justify-center md:items-end md:w-5/12 2xl:w-3/12">
+          <img src={bgPerson} className="md:p-1 h-full object-cover" alt="img" />
         </div>
       </div>
     </div>

@@ -6,7 +6,10 @@ import music from "../images/musical-note.png";
 import movie from "../images/watching-a-movie.png";
 import travel from "../images/world.png";
 import sports from "../images/muscles.png";
-import gift from '../images/gift.png';
+import gift from "../images/gift.png";
+import projectsImg1 from '../images/customer-service.png'
+import projectsImg2 from '../images/download.jpg'
+import projectsImg3 from '../images/image1.jpg'
 
 export const navItems = [
   { id: 1, text: "Home" },
@@ -66,7 +69,7 @@ export const educations = [
     title: "Msc Mechanical Design and Manufacturing Institute of Engineering",
     sub: "Tribhuvan University, Nepal",
     duration: "2019-2022",
-    desc:'80.2%'
+    desc: "80.2%",
   },
   {
     icon: gift,
@@ -128,3 +131,51 @@ export const experiences = [
     desc: "During my tenure as Deputy Management Representative at International Green Developers Nepal Pvt Ltd, Kathmandu, Nepal, I spearheaded the establishment and maintenance of the ISO 9001:2015 quality management system. This involved conducting internal audits, formulating quality management standards, and ensuring adherence to global quality management standards. I diligently identified instances of nonconformance, updated standard operating procedures, and provided essential guidance to uphold the organization's commitment to excellence in quality management.",
   },
 ];
+
+export const skills = [
+  {
+    title: "Leadership",
+    percentage: '95%',
+  },
+  {
+    title: 'Multitasking',
+    percentage: '87%',
+  },
+  {
+    title: 'Project Management',
+    percentage: '90%',
+  },
+  {
+    title: 'HAP',
+    percentage: '85%',
+  },
+  {
+    title: 'Camel',
+    percentage: '90%',
+  },
+  {
+    title: 'Revit',
+    percentage: '88%',
+  },
+  {
+    title: 'Navisworks',
+    percentage: '78%',
+  },
+  {
+    title: 'AutoCAD',
+    percentage: '95%',
+  },
+];
+
+export const projects = [
+  {
+    img:{projectsImg1},
+  },
+  {
+    img: {projectsImg2},
+  },
+  {
+    img: {projectsImg3},
+  }
+
+]
